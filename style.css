@@ -1,7 +1,11 @@
-.district-info__img img {
-    width: 400px;
-    float: left;
-    margin: 0 2em 2em 0;
+.wrapper {
+    max-width: 749px;
+}
+
+.district-info__img {
+    width: 350px;
+    float: right;
+    margin: 0 0 2em 2em;
 }
 
 .district-info {
@@ -26,12 +30,27 @@
 
 .district-info__story .author {
     display: block;
-    padding: .5em 0 1em;
-    border-bottom: 1px dashed #000000;
-    margin: 0 0 .5em;
+    padding: .5em 0 .3em;
+    border-bottom: 2px dotted #000000;
+    margin: 0 0 1em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.district-info__story .author b {
+    font: bold 16px / 22px Arial, Helvetica, sans-serif;
 }
 
 .district-info__story .story {
     font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.district-popup {
+    position: absolute;
+    display: none;
+    padding: 10px 15px;
+    background: #ffffff;;
+    font: normal 14px / 22px Arial, Helvetica, sans-serif;
+    border: 1px solid #d5d5d5;
 }
 
