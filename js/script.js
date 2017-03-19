@@ -98,7 +98,7 @@ window.onload = function () {
                 document.getElementById(current).style.display = "block";
 
                 popup.innerHTML = districtsInfo[current]["name"] + "<br/>Центр округа &mdash; <b>" + districtsInfo[current]["cap"] + "</b>";
-                popup.style.left = (point.x + (point.width / 2)) + "px";
+                popup.style.left = (point.x + (point.width / 2) - 100) + "px";
                 popup.style.top = (point.y + (point.height / 2)) + "px";
                 popup.style.display = "block";
             };
