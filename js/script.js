@@ -1,6 +1,6 @@
 
 window.onload = function () {
-    var map = Raphael("districts-map", 800, 400),
+    var map = Raphael("districts-map", 690, 400),
         attr = {
             "clip-rule": "evenodd",
             "fill": "#d5d5d5",
